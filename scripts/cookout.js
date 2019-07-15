@@ -44,4 +44,4 @@ foods.forEach(food => {
     grill(food);
 });
 
-console.log(cookedFood);
+// console.log(cookedFood);
