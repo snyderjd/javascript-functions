@@ -18,4 +18,4 @@ const chickenMonkey = function() {
     }
 }
 
-chickenMonkey();
+// chickenMonkey();
