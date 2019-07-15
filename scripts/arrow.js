@@ -16,9 +16,7 @@ const addExcitementArrow = (theWordArray, punctuation, num) => {
 
         if ((i + 1) % 3 === 0) {
             buildMeUp += theWordArray[i];
-            for (let j = 1; j <= num; j++) {
-                buildMeUp += punctuation;
-            }
+            buildMeUp += punctuation.repeat(num);
             buildMeUp += " ";
         } else {
             buildMeUp += theWordArray[i] + " ";
@@ -29,4 +27,4 @@ const addExcitementArrow = (theWordArray, punctuation, num) => {
     }
 };
 
-// addExcitementArrow(sentenceWords4, "!", 4);
+// addExcitementArrow(sentenceWords4, "!", 10);
