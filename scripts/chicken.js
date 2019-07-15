@@ -4,8 +4,8 @@
 
 // You can start with this simpler version that outputs even numbers to the console and ignores odd numbers.You need to refactor this code to meet the requirements above.
 
-const chickenMonkey = function() {
-    for (let i = 1; i <= 100; i++) {
+const chickenMonkey = function(beginNum, endNum) {
+    for (let i = beginNum; i <= endNum; i++) {
         if (i % 5 === 0 && i % 7 === 0) {
             console.log("ChickenMonkey");
         } else if (i % 5 === 0) {
@@ -18,4 +18,4 @@ const chickenMonkey = function() {
     }
 }
 
-// chickenMonkey();
+// chickenMonkey(49, 250);
