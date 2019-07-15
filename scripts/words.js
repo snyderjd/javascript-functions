@@ -27,4 +27,4 @@ function addExcitement(theWordArray) {
     }
 }
 
-addExcitement(sentenceWords);
+// addExcitement(sentenceWords);
